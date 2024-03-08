@@ -4,6 +4,7 @@
   border-collapse: collapse;
   border: 2px solid black;
   margin: 0 auto;
+  font-size: 18px;
 }
 th,
 td {
@@ -22,3 +23,4 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
   background-color: #cbcbcb;
 }
+

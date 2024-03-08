@@ -3,7 +3,7 @@ import css from "./TransactionHistory.module.css";
 const TransactionHistory = ({ items }) => {
   const listItems = items.map((item) => (
     <tr key={item.id}>
-      <th>{item.type}</th>
+      <th>{item.type.charAt(0).toUpperCase() + item.type.slice(1)}</th>
       <th>{item.amount}</th>
       <th>{item.currency}</th>
     </tr>
