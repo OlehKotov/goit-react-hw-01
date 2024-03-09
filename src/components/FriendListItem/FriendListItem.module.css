@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
 } */
-.friendListItem {
+.friendListItemImg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
 }
 .friendListItemStat {
   font-size: 25px;
